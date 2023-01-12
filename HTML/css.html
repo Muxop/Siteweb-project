@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le CSS - Ses uttilité</title>
+    <link rel="icon" href="../Img/logo-css.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js"></script>
+    
+</head>
+<body >
+<header>
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&otimes;</a>
+            <a class="hover-underline-animation" id="acceuil" href="../index.html">accueil</a>
+            <a class="hover-underline-animation" href="./Html.html">L'Html</a>
+            <a class="hover-underline-animation" href="./css.html">le css - A regarder</a>
+            <a class="hover-underline-animation" href="./Js.html">le javascript</a> 
+            <details>
+                <summary>Info importante &larr; Click</summary>
+                <div class="details-content-anim">
+            <p class="nav-recomand-mess">Meme si il n'y a pas le contenu attendu sur les pages indiquer je vous invite quand même à aller en visiter une: <br> <br>L'Html <br>Le Javascript <br> </p>
+            </div>
+        </details>
+        </div>
+
+    </nav>
+    <span class="open-btn"style=" cursor:pointer" onclick="openNav()">&#926;</span>
+    <h1 class="page-title page-title-css">Le CSS un outil stylistique</h1>
+    
+    
+    <div class="color-theme">
+            <h2>Ligth-theme</h2>
+    <label class="cursor">
+        
+        <input type="checkbox" class="checkbox__hidden" checked />
+        <div class="round__bar">
+            <div class="round__button">
+        <img class="img-checkbox-ligth-theme" src="/Img/ligth-theme.svg" alt="">
+            </div>
+        </div>
+         
+    </label>
+        <h2>Dark-theme</h2>
+        <h2 class=".Inplementation-mess">(Clickable mais non implémenter)</h2>
+</div>
+</header>
+<article>
+    <p class="content-redirection-mdn">
+        Le CSS permet de styliser les éléments(Vous pouvez tenter par exemple de sélectionner du texte avec le click droit de la souris et vous verrez un effet de console de commande ) d'un styte,de positioner les éléments de différentes mainières: display : flex / block / inline-block / line / grid ainsi que avec position : absolut / relative / fixed / sticky..</span>.Et de crée des simples effets pour en savoir plus 
+         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" class="hover-underline-animation mdn-link" target="_blank">Sur les displays...</a><br>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank" class="hover-underline-animation mdn-link"> Sur les positions... </a>
+      
+        Un site pour apprendre le "display:flex" de façon récréatif: <br>
+        <a href="https://flexboxfroggy.com/#fr%20class=" class="hover-underline-animation mdn-link" target="_blank" rel="noopener noreferrer">Froggy flex</a> 
+        
+    </p>
+</article> 
+<article class="css-librairie">
+    <p>Voici une petite animation faite simplement en css et Html , vous pouvez expérimenter de modifier le code pour comprendre comment l'animation marche , c'est comme cela que j'ai fait pour toute les animations de mon site je les ai "déconstruites" pour comprendre leur fonctionement et les refaires à mon goût.
+    Il existe également des "librairies" d'animations déja faites que l'ont peut directement importer dans son projet , je n'en ai pas uttilisé pour se site (étant donné que je ne pense pas que cela aurait été bien perçu) mais voici une librairies très complètes, et quelques effets.(L'effet uttilisé ici est un effet de gélatine).</p> <a href="https://animate.style/" class="librairie-css-animate " target="_blank"> <div class="backdown-library"> Librairie CSS</div></a>
+</article>
+<iframe height="957" style="width: 100%;height: 100vh;" scrolling="no" title="Loading effect" src="https://codepen.io/Muxop/embed/preview/bGjWrPx?default-tab=&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href="https://codepen.io/Muxop/pen/bGjWrPx">
+    Loading effect</a> by Muxop (<a href="https://codepen.io/Muxop">@Muxop</a>)
+    on <a href="https://codepen.io">CodePen</a>.
+  </iframe>
+</body>
+</html>

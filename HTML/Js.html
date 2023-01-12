@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de chargement</title>
+    <link rel="icon" href="../Img/js-loading-icon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js"></script>
+</head>
+<body >
+<div class="img-area-background"></div>
+<header>
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&otimes;</a>
+            <a class="hover-underline-animation" id="acceuil" href="../index.html">accueil</a>
+            <a class="hover-underline-animation" href="./Html.html">L'Html</a>
+            <a class="hover-underline-animation" href="./css.html">le css - A regarder </a>
+            <a class="hover-underline-animation" href="./Js.html">le javascript</a> 
+            <details>
+                <summary>Info importante &larr; Click</summary>
+                <div class="details-content-anim">
+            <p class="nav-recomand-mess">Meme si il n'y a pas le contenu attendu sur les pages indiquer je vous invite quand même à aller en visiter une: <br> <br>L'Html <br>Le Javascript <br> </p>
+            </div>
+        </details>
+        </div>
+
+    </nav>
+    
+    <span class="open-btn"style=" cursor:pointer" onclick="openNav()">&#926;</span>
+        <div class="color-theme">
+            <h2>Ligth-theme</h2>
+    <label class="cursor">
+        
+        <input type="checkbox" class="checkbox__hidden" checked />
+        <div class="round__bar">
+            <div class="round__button">
+        <img class="img-checkbox-ligth-theme" src="../Img/ligth-theme.svg" alt="">
+            </div>
+        </div>
+         
+    </label>
+        <h2>Dark-theme</h2>
+        <h2 class=".Inplementation-mess">(Clickable mais non implémenter)</h2>
+</div>
+</header>
+   
+    <div class="content-loading">
+        <span> Chargement... </span>
+        <div class="loader"></div>
+        <p>  
+           
+            En réalité cette page ne chargera jammais . Cependant si vous shouaiter vous distraitre pendand se chargement éternel voici plusieurs ressources qui m'ont été utile : 
+        </p>
+
+    </div>
+
+</body>
+</html>
